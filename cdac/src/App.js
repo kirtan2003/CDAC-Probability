@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import MuiNavbar from './components/Navbar.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Theory from './components/Theory';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route> */}
-        <Route path="/about" element={<About/>} />
+        <Route path="/" element={<Theory/>} />
       </Routes>
     </BrowserRouter>
     

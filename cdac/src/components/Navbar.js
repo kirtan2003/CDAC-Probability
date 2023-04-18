@@ -23,7 +23,7 @@ export const MuiNavbar = () => {
   //   setAnchorEl(null)
   // }
   return (
-    <AppBar position='static' color='transparent'>
+    <AppBar position='sticky' color='transparent'>
       <Toolbar>
         <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
           <CatchingPokemonIcon />
@@ -38,7 +38,7 @@ export const MuiNavbar = () => {
           <Link to="/">Theory</Link>
           <Link to="/simulation">Simulation</Link>
           <Link to="/test">Test</Link>
-          <Button
+          {/* <Button
             color='inherit'
             id='resources-button'
             // aria-controls={open ? 'resources-menu' : undefined}
@@ -49,7 +49,7 @@ export const MuiNavbar = () => {
             >
             Resources
           </Button>
-          <Button color='inherit'>Login</Button>
+          <Button color='inherit'>Login</Button> */}
         </Stack>
         <Menu
           id='resources-menu'
