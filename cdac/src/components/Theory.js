@@ -7,12 +7,9 @@ import prob_table2 from "../img/prob_table2.jpg"
 // import text_teams from "../img/text_prob_teams.jpg"
 import text2_teams from "../img/text2_teams.jpg"
 const Theory = () => {
-    const mystyle={
-        backgroundImage:{board_img}
-    }
     return (
         <>
-            <div className='theory_page'  style={mystyle}>
+            <div className='theory_page'>
                 <div className='img_scientist'>
                     <img  className='img_scientist' src={scientist_img} alt="" />
                 </div>
