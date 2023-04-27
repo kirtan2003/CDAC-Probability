@@ -4,6 +4,8 @@ import About from './components/About';
 import MuiNavbar from './components/Navbar.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Theory from './components/Theory';
+import Test from './components/Test';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Route> */}
         <Route path="/" element={<Theory/>} />
+        <Route path="/test" element={<Test/>} />
       </Routes>
     </BrowserRouter>
     
